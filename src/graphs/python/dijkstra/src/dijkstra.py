@@ -1,4 +1,4 @@
-import 
+import graph as G
 import heapq
 
 def dijkstra(graph, start):
@@ -27,12 +27,12 @@ def dijkstra(graph, start):
     return distances
 
 # Example usage:
-vA = Vertex('A')
-vB = Vertex('B')
-vC = Vertex('C')
-vD = Vertex('D')
+vA = G.Vertex('A')
+vB = G.Vertex('B')
+vC = G.Vertex('C')
+vD = G.Vertex('D')
 
-graph = Graph()
+graph = G.Graph()
 graph.add_vertex(vA)
 graph.add_vertex(vB)
 graph.add_vertex(vC)
